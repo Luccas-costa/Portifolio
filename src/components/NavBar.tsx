@@ -31,7 +31,7 @@ export default function NavBar() {
   }, [Itmenuopen]);
 
   return (
-    <div className='w-full h-16 bg-neutral-950 px-8 py-2 flex items-center justify-between'>
+    <div className='w-full h-16 bg-neutral-950 px-6 menuburger:px-8 py-2 flex items-center justify-between'>
       <div>
         <Image
           src='/logos/logo-tranparente.png'
@@ -54,14 +54,20 @@ export default function NavBar() {
             </button>
           </li>
         </ul>
-        <div className='flex menuburger:hidden items-center gap-4'>
-          <CloseMenu handlermenu={handlemenu} checkboxRef={checkboxRef} />
+        <div className='flex menuburger:hidden items-center'>
+          <div style={{ zIndex: 10 }}>
+            <CloseMenu
+              handlermenu={handlemenu}
+              checkboxRef={checkboxRef}
+              cor={Itmenuopen}
+            />
+          </div>
           {Itmenuopen &&
             (console.log("abriu"),
             (
-              <>
+              <div style={{ zIndex: 1 }}>
                 <BurguerMenu handlerclose={closeMenu} />
-              </>
+              </div>
             ))}
         </div>
       </div>
