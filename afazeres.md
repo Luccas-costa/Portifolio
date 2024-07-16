@@ -2,6 +2,8 @@
 
 ## Não feitas
 
-1. trocar favicon.ico
+2. descobrir pq o burguerMenu nao esta funcionando
 
 ## Feitas
+
+1. trocar favicon.ico
