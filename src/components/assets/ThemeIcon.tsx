@@ -1,36 +1,40 @@
-'use client';
-import React, { useState, useEffect } from 'react';
-import { MoonStars, Sun } from '@phosphor-icons/react/dist/ssr';
+"use client";
+import React, { useState, useEffect } from "react";
+import { MoonStars, Sun } from "@phosphor-icons/react";
 
 export default function ThemeIcon() {
-    const [theme, setTheme] = useState(() => {
-        const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        return isDarkMode;
-    });
+  const [theme, setTheme] = useState(false);
 
-    useEffect(() => {
-        if (theme) {
-            document.documentElement.classList.add('dark');
-        } else {
-            document.documentElement.classList.remove('dark');
-        }
-    }, [theme]);
+  useEffect(() => {
+    const isDarkMode =
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches;
+    setTheme(isDarkMode);
+  }, []);
 
-    const toggleTheme = () => {
-        setTheme(prevTheme => !prevTheme);
-    };
+  useEffect(() => {
+    if (theme) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme]);
 
-    return (
-        <div>
-            {theme ? (
-                <button onClick={toggleTheme} className='mt-1'>
-                    <MoonStars size={24} color='white' />
-                </button>
-            ) : (
-                <button onClick={toggleTheme} className='mt-1'>
-                    <Sun size={24} color='white' />
-                </button>
-            )}
-        </div>
-    );
+  const toggleTheme = () => {
+    setTheme((prevTheme) => !prevTheme);
+  };
+
+  return (
+    <div>
+      {theme ? (
+        <button onClick={toggleTheme} className='mt-1'>
+          <MoonStars size={24} color='white' />
+        </button>
+      ) : (
+        <button onClick={toggleTheme} className='mt-1'>
+          <Sun size={24} color='white' />
+        </button>
+      )}
+    </div>
+  );
 }
