@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        menuburger: '630px'
+      }
     },
   },
   plugins: [],

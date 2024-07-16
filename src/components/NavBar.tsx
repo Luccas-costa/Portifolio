@@ -1,6 +1,7 @@
-import Image from 'next/image'
-import React from 'react'
-import ThemeIcon from './assets/ThemeIcon'
+import Image from 'next/image';
+import React from 'react';
+import ThemeIcon from './assets/ThemeIcon';
+import styles from '@/styles/border.module.css'
 
 export default function NavBar() {
   return (
@@ -10,8 +11,9 @@ export default function NavBar() {
       </div>
       <div>
         <ul className='flex items-center gap-4'>
-          <li className='text-white font-semibold'>Sobre</li>
-          <li className='text-white font-semibold'>Contato</li>
+          <li className={styles.navItem}>Home</li>
+          <li className={styles.navItem}>Sobre</li>
+          <li className={styles.navItem}>Contato</li>
           <li><ThemeIcon/></li>
           <li>
             <button className='bg-white rounded-lg py-2 px-3 font-semibold'>Login</button>
@@ -19,5 +21,5 @@ export default function NavBar() {
         </ul>
       </div>
     </div>
-  )
+  );
 }

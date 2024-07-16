@@ -1,0 +1,36 @@
+/* NavBar.module.css */
+
+.navItem {
+    position: relative;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navItem::before,
+  .navItem::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+    opacity: 0; /* Começa com opacidade zero para esconder */
+  }
+  
+  .navItem::before {
+    left: 50%;
+  }
+  
+  .navItem::after {
+    right: 50%;
+  }
+  
+  .navItem:hover::before,
+  .navItem:hover::after {
+    width: 50%; /* Ajuste a largura conforme necessário */
+    opacity: 1; /* Mostra os pseudo-elementos ao fazer hover */
+  }
+  
