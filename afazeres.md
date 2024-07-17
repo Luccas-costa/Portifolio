@@ -4,6 +4,10 @@
 
 3. melhorar dentro menu burguer
 
+4. melhora favicon que esta torto
+
+5. melhorar texto do hero que esta feito
+
 ## Feitas
 
 1. trocar favicon.ico
