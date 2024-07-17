@@ -5,9 +5,11 @@ import ThemeIcon from "./assets/ThemeIcon";
 import styles from "@/styles/border.module.css";
 import CloseMenu from "./assets/CloseMenu";
 import BurguerMenu from "./assets/BurguerMenu";
+import { CaretDown } from "@phosphor-icons/react/dist/ssr";
 
 export default function NavBar() {
   const [Itmenuopen, setItmenuopen] = useState(false);
+  const [OpenIdioma, setOpenIdioma] = useState(false);
   const checkboxRef = useRef<HTMLInputElement>(null);
 
   const handlemenu = () => {
@@ -45,6 +47,17 @@ export default function NavBar() {
           <li className={styles.navItem}>Home</li>
           <li className={styles.navItem}>Sobre</li>
           <li className={styles.navItem}>Contato</li>
+          <li
+            className={`${styles.navItem} flex gap-1 items-center`}
+            onClick={() => setOpenIdioma(!OpenIdioma)}
+          >
+            Idioma{" "}
+            <span
+              className={`mt-1 transition-all ${OpenIdioma && "rotate-180"}`}
+            >
+              <CaretDown size={14} weight='bold' />
+            </span>
+          </li>
           <li>
             <ThemeIcon />
           </li>

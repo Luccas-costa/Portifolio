@@ -1,0 +1,20 @@
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .slider {
+    display: flex;
+    gap: 200px;
+    animation: scroll 100s linear infinite;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    width: 200%;
+  }
+  

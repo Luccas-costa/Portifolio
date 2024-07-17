@@ -1,7 +1,9 @@
 .degrade {
     background: linear-gradient(to bottom, #000000, #200D42 34%, #4F21A1 65%, #A46EDB 82%);
 }
-
 .degrade2 {
     background: radial-gradient(closest-side, #000 82%, #9560EB);
+}
+.degrade3 {
+    background: linear-gradient(to bottom, #000000, #0f0520, #200D42, #2e125f, #3e1a7e, #2e125f, #200D42, #0f0520 ,#000000);
 }
