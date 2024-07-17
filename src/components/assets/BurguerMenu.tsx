@@ -19,7 +19,7 @@ export default function BurguerMenu({ handlerclose }: BurguerMenuProps) {
     <>
       {isVisible && (
         <motion.div
-          className='absolute rounded-full top-0 left-0 w-[300%] h-[300%] bg-purple-700'
+          className='absolute rounded-[100%] top-0 left-0 w-[300%] h-[300%] bg-purple-700'
           style={{ translateX: "-19%", translateY: "-48%", zIndex: 1 }}
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
