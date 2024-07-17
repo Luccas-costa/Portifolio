@@ -31,7 +31,7 @@ export default function NavBar() {
   }, [Itmenuopen]);
 
   return (
-    <div className='w-full h-16 bg-neutral-950 px-6 menuburger:px-8 py-2 flex items-center justify-between'>
+    <div className='w-full h-16 bg-black px-6 menuburger:px-8 py-2 flex items-center justify-between'>
       <div>
         <Image
           src='/logos/logo-tranparente.png'
