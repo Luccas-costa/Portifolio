@@ -8,6 +8,8 @@
 
 5. melhorar texto do hero que esta feito
 
+6. arrumar responosividade do hero
+
 ## Feitas
 
 1. trocar favicon.ico
