@@ -24,6 +24,7 @@ const config: Config = {
         screen12: "400px",
         screen13: "300px",
 
+        spacesliders: "670px",
         menuburger: '630px'
       }
     },
