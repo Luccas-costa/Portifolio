@@ -22,6 +22,8 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 
 10. trocar tom de cor de todas as linguagens para #393939
 
+11. terminar de fazer menu do idioma copiar shadc/ui
+
 ## Feitas
 
 1. trocar favicon.ico
