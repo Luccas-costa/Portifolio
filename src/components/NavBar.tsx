@@ -44,7 +44,7 @@ export default function NavBar() {
       </div>
       <div>
         <ul className='hidden menuburger:flex items-center gap-4'>
-          <li className={styles.navItem}>Home</li>
+          <li className={styles.navItem}>Projetos</li>
           <li className={styles.navItem}>Sobre</li>
           <li className={styles.navItem}>Contato</li>
           <li

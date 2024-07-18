@@ -12,10 +12,10 @@ export default function Hero() {
         style={{ zIndex: 10 }}
       >
         <div className=''>
-          <div className='absolute left-[506px] top-[174px]'>
+          <div className='absolute left-[42vh] top-[174px]'>
             <Image src='/assets/seta.png' alt='logo' width={200} height={200} />
           </div>
-          <div className='absolute right-[499px] top-[273px]'>
+          <div className='absolute right-[27vw] top-[273px]'>
             <Image src='/assets/chat.png' alt='logo' width={200} height={200} />
           </div>
         </div>

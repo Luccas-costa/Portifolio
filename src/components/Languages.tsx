@@ -13,7 +13,7 @@ export default function Languages() {
         <div className={styles["slider-wrapper"]}>
           <ul className={styles.slider}>
             {languages.map((language) => (
-              <li key={language.id} className='flex items-center space-x-6'>
+              <li key={language.id} className='flex items-center space-x-4'>
                 <Image
                   src={language.image}
                   alt={`Logo ${language.name}`}
@@ -27,7 +27,7 @@ export default function Languages() {
             {languages.map((language) => (
               <li
                 key={`clone-${language.id}`}
-                className='flex items-center space-x-6'
+                className='flex items-center space-x-4'
               >
                 <Image
                   src={language.image}

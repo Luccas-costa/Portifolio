@@ -14,6 +14,8 @@
 
 6. melhorar os card que tao feio
 
+7. preciso arrumar como que faz o posicionamento dos icones na hero
+
 ## Feitas
 
 1. trocar favicon.ico
