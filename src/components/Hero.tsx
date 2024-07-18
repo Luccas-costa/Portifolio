@@ -19,7 +19,7 @@ export default function Hero() {
             <Image src='/assets/chat.png' alt='logo' width={200} height={200} />
           </div>
         </div>
-        <div className='text-9xl font-semibold tracking-tighter'>
+        <div className='text-9xl font-semPibold tracking-tighter'>
           Olá Mundo!
         </div>
         <div className='text-9xl font-semibold tracking-tighter'>eu sou</div>

@@ -16,6 +16,8 @@
 
 7. preciso arrumar como que faz o posicionamento dos icones na hero
 
+8. melhorar about com oq fiz no portifolio old
+
 ## Feitas
 
 1. trocar favicon.ico
