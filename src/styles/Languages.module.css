@@ -1,20 +1,7 @@
-@keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-  
-  .slider {
-    display: flex;
-    gap: 200px;
-    animation: scroll 100s linear infinite;
-  }
-  
-  .slider-wrapper {
-    display: flex;
-    width: 200%;
-  }
-  
+.degrade {
+  background: linear-gradient(to right,  #000000, rgb(0, 0, 0, 80%) 34%, rgb(0, 0, 0, 60% ) 65%, rgb(0, 0, 0, 40%) 76%, rgb(0, 0, 0, 20%)  86%, rgb(0, 0, 0, 5%));
+}
+
+.degrade2 {
+  background: linear-gradient(to left, #000000, rgb(0, 0, 0, 80%) 34%, rgb(0, 0, 0, 60% ) 65%, rgb(0, 0, 0, 40%) 76%, rgb(0, 0, 0, 20%)  86%, rgb(0, 0, 0, 5%));
+}

@@ -7,8 +7,12 @@ import About from "@/components/About";
 export default function Home() {
   return (
     <main className='h-screen w-screen bg-white dark:bg-neutral-950'>
-      <NavBar />
-      <Hero />
+      <div style={{ zIndex: 2, position: "relative" }}>
+        <NavBar />
+      </div>
+      <div style={{ zIndex: 1, position: "relative" }}>
+        <Hero />
+      </div>
       <Languages />
       <Projects />
       <About />

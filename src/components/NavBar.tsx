@@ -15,7 +15,6 @@ export default function NavBar() {
 
   const handlemenu = () => {
     setItmenuopen(!Itmenuopen);
-    console.log("mudei");
   };
 
   const closeMenu = () => {
@@ -60,7 +59,7 @@ export default function NavBar() {
                 <CaretDown size={14} weight='bold' />
               </span>
               {OpenIdioma && (
-                <div className='absolute top-5 right-0 z-20 mt-2'>
+                <div className='absolute top-6 right-0 z-20 mt-2'>
                   <MenuIdioma />
                 </div>
               )}
@@ -82,13 +81,11 @@ export default function NavBar() {
                 cor={Itmenuopen}
               />
             </div>
-            {Itmenuopen &&
-              (console.log("abriu"),
-              (
-                <div style={{ zIndex: 1 }}>
-                  <BurguerMenu handlerclose={closeMenu} />
-                </div>
-              ))}
+            {Itmenuopen && (
+              <div style={{ zIndex: 1 }}>
+                <BurguerMenu handlerclose={closeMenu} />
+              </div>
+            )}
           </div>
         </div>
       </div>
