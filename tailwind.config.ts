@@ -10,6 +10,10 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
+        screen01: "1900px",
+        screen02: "1800px",
+        screen03: "1700px",
+        screen04: "1600px",
         screen1: "1500px",
         screen2: "1400px",
         screen3: "1300px",

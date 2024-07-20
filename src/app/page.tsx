@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Languages from "@/components/Languages";
 import Projects from "@/components/Projects";
 import About from "@/components/About";
+import BotaoIndicaScroll from "@/components/assets/BotaoIndicaScroll";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       <Languages />
       <Projects />
       <About />
+
+      <BotaoIndicaScroll />
     </main>
   );
 }

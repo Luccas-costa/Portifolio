@@ -16,7 +16,9 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 
 7. melhorar about com oq fiz no portifolio old
 
-8. colocar idioma e thema no menu burguer
+8. colocar idioma no menu burguer
+
+9. ajustar distancia do contato com language em menores resoluçoes
 
 ## Feitas
 
