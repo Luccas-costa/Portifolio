@@ -50,7 +50,7 @@ export const languages = [
     image: "/assets/icons/mysql.png",
   },
   {
-    id: 10,
+    id: 11,
     name: "Prisma",
     image: "/assets/icons/prisma.png",
   },

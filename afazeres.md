@@ -18,7 +18,7 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 
 8. colocar idioma no menu burguer
 
-9. ajustar distancia do contato com language em menores resoluçoes
+9. descobrir pq essa poha de erro esta dando no console, para depois arrumar o indicascroll
 
 ## Feitas
 
@@ -35,3 +35,5 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 6. trocar tom de cor de todas as linguagens para #393939
 
 7. terminar de fazer menu do idioma copiar shadc/ui
+
+8. ajustar distancia do contato com language em menores resoluçoes
