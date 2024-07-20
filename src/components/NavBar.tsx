@@ -65,7 +65,7 @@ export default function NavBar() {
               )}
             </li>
             <li>
-              <ThemeIcon />
+              <ThemeIcon cor='white' tamanho={24} />
             </li>
             <li>
               <button className='bg-white rounded-lg py-2 px-3 font-semibold'>

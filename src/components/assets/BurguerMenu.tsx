@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
+import ThemeIcon from "./ThemeIcon";
 
 interface BurguerMenuProps {
   handlerclose: () => void;
@@ -38,6 +39,9 @@ export default function BurguerMenu({ handlerclose }: BurguerMenuProps) {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, ease: "easeInOut" }}
       >
+        <div className='absolute top-2 left-5'>
+          <ThemeIcon cor='black' tamanho={38} />
+        </div>
         <div className='flex flex-col items-center justify-center h-full '>
           <button
             className='p-4 focus:outline-none text-black'

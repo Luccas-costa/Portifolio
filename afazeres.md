@@ -10,19 +10,13 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 
 4. melhora favicon que esta torto
 
-5. arrumar responosividade do hero
+5. melhorar os card que tao feio
 
-6. melhorar os card que tao feio
+6. preciso arrumar como que faz o posicionamento dos icones na hero
 
-7. preciso arrumar como que faz o posicionamento dos icones na hero
+7. melhorar about com oq fiz no portifolio old
 
-8. melhorar about com oq fiz no portifolio old
-
-9. trocar o spin infinito das linguagens para um slide
-
-10. trocar tom de cor de todas as linguagens para #393939
-
-11. terminar de fazer menu do idioma copiar shadc/ui
+8. colocar idioma e thema no menu burguer
 
 ## Feitas
 
@@ -31,3 +25,11 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 2. descobrir pq o burguerMenu nao esta funcionando
 
 3. melhorar texto do hero que esta feito
+
+4. arrumar responosividade do hero
+
+5. trocar o spin infinito das linguagens para um slide
+
+6. trocar tom de cor de todas as linguagens para #393939
+
+7. terminar de fazer menu do idioma copiar shadc/ui

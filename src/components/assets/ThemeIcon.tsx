@@ -2,7 +2,12 @@
 import React, { useState, useEffect } from "react";
 import { MoonStars, Sun } from "@phosphor-icons/react";
 
-export default function ThemeIcon() {
+interface ThemeIconProps {
+  cor: string;
+  tamanho: number;
+}
+
+export default function ThemeIcon({ cor, tamanho }: ThemeIconProps) {
   const [theme, setTheme] = useState(false);
 
   useEffect(() => {
@@ -28,11 +33,11 @@ export default function ThemeIcon() {
     <div>
       {theme ? (
         <button onClick={toggleTheme} className='mt-1'>
-          <MoonStars size={24} color='white' />
+          <MoonStars size={tamanho} color={cor} />
         </button>
       ) : (
         <button onClick={toggleTheme} className='mt-1'>
-          <Sun size={24} color='white' />
+          <Sun size={tamanho} color={cor} />
         </button>
       )}
     </div>
