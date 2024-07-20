@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  darkMode: 'class', // Isso ativa o modo escuro com a classe 'dark'
+  darkMode: "class", // Isso ativa o modo escuro com a classe 'dark'
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -22,11 +22,12 @@ const config: Config = {
         screen10: "600px",
         screen11: "500px",
         screen12: "400px",
-        screen13: "300px",
+        screen13: "350px",
+        screen14: "300px",
 
         spacesliders: "670px",
-        menuburger: '630px'
-      }
+        menuburger: "630px",
+      },
     },
   },
   plugins: [],

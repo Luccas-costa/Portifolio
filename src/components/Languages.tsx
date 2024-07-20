@@ -68,8 +68,8 @@ export default function Languages() {
   };
 
   return (
-    <div className='w-full bg-black text-zinc-600 screen9:pt-[30px] screen10:pt-[43px] screen11:pt-[48px] pb-[150px] flex flex-col items-center overflow-hidden relative'>
-      <div className='text-2xl font-semibold tracking-tighter screen11:text-3xl'>
+    <div className='w-full bg-black text-zinc-600 screen9:pt-[30px] screen10:pt-[43px] screen11:pt-[48px] screen12:pt-[48px] pt-[50px] pb-[150px] flex flex-col items-center overflow-hidden relative'>
+      <div className='text-xl screen12:text-2xl font-semibold tracking-tighter screen11:text-3xl'>
         Quais Linguagens eu trabalho?
       </div>
       <div className='mt-16 overflow-hidden w-full' ref={containerRef}>
@@ -106,24 +106,24 @@ export default function Languages() {
       </div>
       <button
         onClick={() => moveSlide(-1)}
-        className='absolute left-4 top-[47%] transform -translate-y-1/2 bg-black/40 text-white p-2 rounded-full'
+        className='absolute left-4 top-[49%] screen11:top-[47%] transform -translate-y-1/2 bg-black/40 text-white p-2 rounded-full'
         style={{ zIndex: 3 }}
       >
         <CaretLeft size={24} color='white' />
       </button>
       <button
         onClick={() => moveSlide(1)}
-        className='absolute right-4 top-[47%] transform -translate-y-1/2 bg-black/40 text-white p-2 rounded-full'
+        className='absolute right-4 top-[49%] screen11:top-[47%] transform -translate-y-1/2 bg-black/40 text-white p-2 rounded-full'
         style={{ zIndex: 3 }}
       >
         <CaretRight size={24} color='white' />
       </button>
       <div
-        className={`absolute screen12:w-48 w-32 h-12 left-4 top-[47%] transform -translate-y-1/2 ${styles.degrade}`}
+        className={`absolute screen12:w-48 w-32 h-16 left-0 top-[49%] screen11:top-[47%] transform -translate-y-1/2 ${styles.degrade}`}
         style={{ zIndex: 2 }}
       ></div>
       <div
-        className={`absolute screen12:w-48 w-32 h-12 right-4 top-[47%] transform -translate-y-1/2 ${styles.degrade2}`}
+        className={`absolute screen12:w-48 w-32 h-16 right-0 top-[49%] screen11:top-[47%] transform -translate-y-1/2 ${styles.degrade2}`}
         style={{ zIndex: 2 }}
       ></div>
     </div>
