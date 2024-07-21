@@ -66,7 +66,7 @@ export default function Hero() {
       ></div>
 
       <div
-        className='absolute top-[78vh] left-1/2 -translate-x-1/2'
+        className='absolute top-[75vh] left-1/2 -translate-x-1/2'
         style={{ zIndex: 1 }}
       >
         <BotaoIndicaScroll />
