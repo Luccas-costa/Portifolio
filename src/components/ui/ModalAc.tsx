@@ -23,7 +23,7 @@ export default function AnimatedModalDemo() {
   return (
     <div className='flex items-center justify-center'>
       <Modal>
-        <ModalTrigger className='bg-black dark:bg-white dark:text-black text-white flex justify-center group/modal-btn'>
+        <ModalTrigger className='bg-white dark:bg-white dark:text-black text-white flex justify-center group/modal-btn'>
           Contato
         </ModalTrigger>
         <ModalBody>

@@ -7,7 +7,7 @@ import AnimatedModalDemo from "./ui/ModalAc";
 export default function Hero() {
   return (
     <div
-      className={`bg-black text-white ${styles.degrade} screen1:pt-[150px] screen1:pb-[140px] screen2:pt-[110px] screen2:pb-[180px] screen3:pt-[110px] screen3:pb-[180px] screen4:pt-[110px] screen4:pb-[180px] screen5:pt-[110px] screen5:pb-[180px]  screen8:pt-[110px] screen8:pb-[180px] screen9:pt-[170px] screen9:pb-[240px] screen10:pt-[190px] screen10:pb-[260px] screen11:pt-[190px] screen11:pb-[260px] screen12:pt-[212px] screen12:pb-[282px] screen13:pt-[220px] screen13:pb-[290px] screen14:pt-[220px] screen14:pb-[290px] flex flex-col relative overflow-clip`}
+      className={`bg-black text-white ${styles.degrade} screen1:pt-[150px] screen1:pb-[140px] screen2:pt-[110px] screen2:pb-[180px] screen3:pt-[110px] screen3:pb-[180px] screen4:pt-[110px] screen4:pb-[180px] screen5:pt-[110px] screen5:pb-[180px]  screen8:pt-[110px] screen8:pb-[180px] screen9:pt-[170px] screen9:pb-[240px] screen10:pt-[190px] screen10:pb-[260px] screen11:pt-[190px] screen11:pb-[240px] screen12:pt-[192px] screen12:pb-[262px] screen13:pt-[200px] screen13:pb-[270px] screen14:pt-[200px] screen14:pb-[290px] flex flex-col relative overflow-clip`}
       //pt-[150px] screen2:pb-[330px] screen3:pt-[80px] screen1:pb-[345px] pb-[260px] screen12:pb-[220px] screen11:pb-[170px]
     >
       <div
@@ -66,7 +66,7 @@ export default function Hero() {
       ></div>
 
       <div
-        className='absolute top-[80vh] left-1/2 -translate-x-1/2'
+        className='absolute top-[78vh] left-1/2 -translate-x-1/2'
         style={{ zIndex: 1 }}
       >
         <BotaoIndicaScroll />
