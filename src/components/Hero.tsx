@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "@/styles/Hero.module.css";
 import BotaoIndicaScroll from "./assets/BotaoIndicaScroll";
+import AnimatedModalDemo from "./ui/ModalAc";
 
 export default function Hero() {
   return (
@@ -55,8 +56,8 @@ export default function Hero() {
         className='p-[1rem] flex flex-col items-center justify-center'
         style={{ zIndex: 10 }}
       >
-        <button className='px-5 py-2 rounded-lg bg-white text-black font-semibold'>
-          Contato
+        <button className='px-2 py-1 rounded-lg bg-white text-black font-semibold'>
+          <AnimatedModalDemo />
         </button>
       </div>
       <div

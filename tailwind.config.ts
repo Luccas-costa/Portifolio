@@ -25,6 +25,7 @@ const config: Config = {
         screen9: "700px",
         screen10: "600px",
         screen11: "500px",
+        screen11_5: "450px",
         screen12: "400px",
         screen13: "350px",
         screen14: "300px",

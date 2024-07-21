@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "./AindaNsei";
+import { CardBody, CardContainer, CardItem } from "./ConfigCardAc";
 import Link from "next/link";
 
 interface ThreeDCardDemoProps {
