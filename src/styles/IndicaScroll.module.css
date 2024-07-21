@@ -2,8 +2,8 @@
 .scrollicon {
 	position: relative;
 	margin: 2em;
-	width: 2em;
-	height: 4em;
+	width: 1.7em;
+	height: 3em;
 	border: .3em solid #ffffff70;
 	border-radius: 2em;
 }
@@ -12,8 +12,8 @@
 	position: absolute;
 	left: 50%;
 	top: 15%;
-	width: .6em;
-	height: .6em;
+	width: .5em;
+	height: .5em;
 	background-color: #ffffff70;
 	transform: translate(-50%, 0);
 	border-radius: .6em;
@@ -29,117 +29,8 @@
 		opacity: 1;
 	}
 	90%, 100% {
-		transform: translate(-50%, 150%);
+		transform: translate(-50%, 100%);
 		opacity: 0;
 	}
 }
 
-.scrollicon.ex2 .wheel {
-	position: absolute;
-	left: 50%;
-	top: 15%;
-	width: .6em;
-	height: 1.5em;
-	border: .1em solid #ffffff70;
-	transform: translate(-50%, 0);
-	border-radius: .6em;
-	overflow: hidden;
-}
-
-.scrollicon.ex2 .wheel::before {
-	content: '';
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: -100%;
-	bottom: 0;
-	background-image: linear-gradient(0deg, #ffffff70 2px, transparent 1px);
-	background-size: 100% 6px;
-	opacity: .5;
-	animation: ex-2-wheel 1s ease-in-out infinite;
-}
-
-@keyframes ex-2-wheel {
-	0% {
-		transform: translateY(0);
-		opacity: .5;
-	}
-	40%, 50% {
-		opacity: .8;
-	}
-	90%, 100% {
-		transform: translateY(50%);
-		opacity: .5;
-	}
-}
-
-.scrollicon.ex3 .wheel {
-	position: absolute;
-	left: 50%;
-	top: 25%;
-	width: .6em;
-	height: .6em;
-	background-color: #ffffff70;
-	transform: translate(-50%, 0);
-	border-radius: .6em;
-	animation: ex-3-wheel 1s ease-in-out infinite;
-}
-
-.scrollicon.ex3 .arrow::before,
-.scrollicon.ex3 .arrow::after {
-	content: '';
-	display: block;
-	width: .4em;
-	height: .4em;
-	border-left: 1px solid #ffffff70;
-	border-top: 1px solid #ffffff70;
-	box-sizing: border-box;
-}
-
-.scrollicon.ex3 .arrow {
-	position: absolute;
-	left: 50%;
-	width: .4em;
-	height: 1em;
-	transform: translateX(-50%);
-	opacity: .3;
-	animation: ex-3-wheel-opacity 1s ease-in-out infinite;
-}
-
-
-
-.scrollicon.ex3 .arrow.up {
-	top: 10%;
-}
-
-.scrollicon.ex3 .arrow.up::before,
-.scrollicon.ex3 .arrow.up::after {
-	transform: rotate(45deg);
-}
-
-.scroll-icon.ex-3 .arrow.down {
-	top: 45%;
-}
-
-.scrollicon.ex3 .arrow.down::before,
-.scrollicon.ex3 .arrow.down::after {
-	transform: rotate(-135deg);
-}
-
-@keyframes ex-3-wheel {
-	0%, 100% {
-		transform: translate(-50%, 0);
-	}
-	50%{
-		transform: translate(-50%, 50%);
-	}
-}
-
-@keyframes ex-3-wheel-opacity {
-	0%, 100% {
-		opacity: .5;
-	}
-	50% {
-		opacity: .2;
-	}
-}
