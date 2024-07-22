@@ -3,3 +3,11 @@
     border-right: solid 10px black;
     background-color: #413537;
 }
+
+.degrade {
+    background: linear-gradient(to right, black 15%, rgba(0, 0, 0, 0.445), #6f35c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}

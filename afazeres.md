@@ -12,6 +12,12 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 
 6. melhorar about com oq fiz no portifolio old
 
+7. deixar responsivo o subtitulo do projetos "ESSES SAO ALGUNS DE MEUS PROJETOS ATUAIS..."
+
+8. tirar foto deitada para botar no about
+
+9. melhorar beleza do segundo texto do about e deixar tudo reponsivo
+
 ## Feitas
 
 1. trocar favicon.ico

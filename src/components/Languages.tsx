@@ -29,7 +29,7 @@ export default function Languages() {
 
   useEffect(() => {
     const updateItemsPerSlide = () => {
-      if (window.innerWidth < 497) {
+      if (window.innerWidth < 520) {
         setItemsPerSlide(1);
       } else if (window.innerWidth < 670) {
         setItemsPerSlide(2);

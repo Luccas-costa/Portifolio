@@ -56,9 +56,9 @@ export default function Hero() {
         className='p-[1rem] flex flex-col items-center justify-center'
         style={{ zIndex: 10 }}
       >
-        <button className='px-2 py-1 rounded-lg bg-white text-black font-semibold'>
+        <div className='px-2 py-1 rounded-lg bg-white text-black font-semibold'>
           <AnimatedModalDemo />
-        </button>
+        </div>
       </div>
       <div
         className={`absolute h-[375px] w-[750px] menuburger:w-[180vw] menuburger:h-[768px] screen10:w-[208vw] screen10:h-[768px] screen11:w-[208vw] screen11:h-[768px] screen12:w-[280vw] screen12:h-[768px]  screen13:w-[280vw] screen13:h-[768px] rounded-[100%] bg-black screen12:top-[calc(100%-115px)] screen10:top-[calc(100%-138px)] top-[calc(100%-150px)] left-1/2 -translate-x-1/2 border border-[#B48CDE] ${styles.degrade2}`}
