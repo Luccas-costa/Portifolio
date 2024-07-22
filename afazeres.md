@@ -12,18 +12,15 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 
 6. melhorar about com oq fiz no portifolio old
 
-7. deixar responsivo o subtitulo do projetos "ESSES SAO ALGUNS DE MEUS PROJETOS ATUAIS..."
+7. tirar foto deitada para botar no about
 
-8. tirar foto deitada para botar no about
-
-9. melhorar beleza do segundo texto do about e deixar tudo reponsivo
+8. melhorar beleza do segundo texto do about e deixar tudo reponsivo
 
 ## Feitas
 
 1. trocar favicon.ico
 
 2. descobrir pq o burguerMenu nao esta funcionando
-
 3. melhorar dentro menu burguer
 
 4. melhorar texto do hero que esta feito
@@ -34,12 +31,16 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 
 7. trocar o spin infinito das linguagens para um slide
 
-8. descobrir pq essa poha de erro esta dando no console, para depois arrumar o indicascroll
+8. deixar responsivo o subtitulo do projetos "ESSES SAO ALGUNS DE MEUS PROJETOS ATUAIS..."
 
-9. colocar idioma no menu burguer
+9. descobrir pq essa poha de erro esta dando no console, para depois arrumar o indicascroll
 
-10. trocar tom de cor de todas as linguagens para #393939
+10. colocar idioma no menu burguer
 
-11. terminar de fazer menu do idioma copiar shadc/ui
+11. trocar tom de cor de todas as linguagens para #393939
 
-12. ajustar distancia do contato com language em menores resoluçoes
+12. terminar de fazer menu do idioma copiar shadc/ui
+
+13. ajustar distancia do contato com language em menores resoluçoes
+
+14. terminar perguntas e componentizar mais para cada pergunta ser um componente com props

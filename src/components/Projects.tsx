@@ -9,7 +9,7 @@ export default function Projects() {
       className={`w-full bg-black pt-40 pb-40 text-white flex flex-col items-center`}
     >
       <div className='text-7xl font-semibold'>Projetos</div>
-      <div className='text-2xl font-semibold text-zinc-400 w-1/4 text-center mt-4'>
+      <div className='text-lg screen12:text-xl screen8:text-2xl font-semibold text-zinc-400 w-[90%] screen11_5:w-[70%] screen9:w-1/2 screen5:w-1/3 screen1:w-1/4 text-center mt-4'>
         Esses são alguns de meus projetos atuais, pessoais ou open sources.
       </div>
       <div className='grid grid-cols-1 screen6:grid-cols-2 screen1:grid-cols-3 gap-0 screen6:gap-6 screen5:gap-16 screen1:gap-6 screen04:gap-16 mt-12'>

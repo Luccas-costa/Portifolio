@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import Languages from "@/components/Languages";
 import Projects from "@/components/Projects";
 import About from "@/components/About";
+import Contato from "@/components/Contato";
+import Questions from "@/components/Questions";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Languages />
       <Projects />
       <About />
+      <Questions />
+      <Contato />
     </main>
   );
 }

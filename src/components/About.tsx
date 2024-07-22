@@ -12,7 +12,7 @@ export default function About() {
       <div className='text-4xl font-semibold flex flex-col items-start px-20 w-full'>
         <h1>Vamos falar um pouco sobre mim.</h1>
         <h4 className='text-xl'></h4>
-        <div className='w-[76%] h-[600px] mt-5 bg-black font-bold text-5xl relative'>
+        <div className='w-[76%] h-[600px] mt-5 bg-black font-bold text-5xl relative rounded-lg'>
           <div
             className={`absolute top-[50%] right-0 translate-x-[55%] translate-y-[-50%] -rotate-90 `}
           >
@@ -25,13 +25,12 @@ export default function About() {
           <GlobeDemo />
         </div>
         <div className='w-[45%] px-20 text-3xl text-center'>
-          <span className='text-5xl pl-4'>S</span>ou um desenvolvedor Full
-          Stack. Sou natural de Minas Gerais, mas vivo hoje em São Paulo. E
-          trabalho como um desenvolvedor web. Tenho 17 anos e sou apaixonado por
-          tecnologia, já tendo 3 anos na área. Quando não estou em casa, gosto
-          de estar nos tatames, sou atleta de jiu-jitsu, vivendo esse lifestyle
-          há 11 anos. Já realizei varios projetos variados na área e estou em
-          busca de novos desafios.
+          Sou um desenvolvedor Full Stack. Sou natural de Minas Gerais, mas vivo
+          hoje em São Paulo. E trabalho como um desenvolvedor web. Tenho 17 anos
+          e sou apaixonado por tecnologia, já tendo 3 anos na área. Quando não
+          estou em casa, gosto de estar nos tatames, sou atleta de jiu-jitsu,
+          vivendo esse lifestyle há 11 anos. Já realizei varios projetos
+          variados na área e estou em busca de novos desafios.
         </div>
       </div>
     </div>
