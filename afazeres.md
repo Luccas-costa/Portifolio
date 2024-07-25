@@ -8,7 +8,7 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 
 4. melhora favicon que esta torto
 
-5. preciso arrumar como que faz o posicionamento dos icones na hero
+5. preciso arrumar como que faz o posicionamento dos icones na hero e no contato
 
 6. melhorar about com oq fiz no portifolio old
 

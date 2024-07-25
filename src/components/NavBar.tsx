@@ -7,6 +7,7 @@ import CloseMenu from "./assets/CloseMenu";
 import BurguerMenu from "./assets/BurguerMenu";
 import { CaretDown } from "@phosphor-icons/react/dist/ssr";
 import MenuIdioma from "./assets/MenuIdioma";
+import { SignedOut, SignInButton, SignedIn, UserButton } from "@clerk/nextjs";
 
 export default function NavBar() {
   const [Itmenuopen, setItmenuopen] = useState(false);
@@ -68,9 +69,16 @@ export default function NavBar() {
               <ThemeIcon cor='white' tamanho={24} />
             </li>
             <li>
-              <button className='bg-white rounded-lg py-2 px-3 font-semibold'>
-                Login
-              </button>
+              <SignedOut>
+                <SignInButton mode='modal'>
+                  <button className='bg-white rounded-lg py-2 px-3 font-semibold'>
+                    Login
+                  </button>
+                </SignInButton>
+              </SignedOut>
+              <SignedIn>
+                <UserButton />
+              </SignedIn>
             </li>
           </ul>
           <div className='flex menuburger:hidden items-center'>

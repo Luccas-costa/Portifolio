@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/localizations": "^2.5.1",
+    "@clerk/nextjs": "^5.2.6",
+    "@clerk/themes": "^2.1.13",
     "@phosphor-icons/react": "^2.1.7",
     "@react-three/drei": "^9.109.0",
     "@react-three/fiber": "^8.16.8",
