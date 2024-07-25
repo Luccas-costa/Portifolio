@@ -1,6 +1,7 @@
 "use client";
-import { SignedOut, SignInButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import React, { useState } from "react";
+import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 export default function Contato() {
   const [login, setLogin] = useState(true);
@@ -13,10 +14,11 @@ export default function Contato() {
       <div className='text-2xl pt-4 text-center text-white/40 w-1/3 mx-auto  '>
         Quer me conectar? Me mande uma mensagem pelo formulário abaixo.
       </div>
-      <form
+      {/* <form
         action=''
         className='py-12 flex flex-col justify-center items-center'
-      >
+      > */}
+      <div className='py-12 flex flex-col justify-center items-center'>
         {login && (
           <>
             <div className='mb-3 w-1/3'>
@@ -49,6 +51,9 @@ export default function Contato() {
                     </button>
                   </SignInButton>
                 </SignedOut>
+                <SignedIn>
+                  <UserButton />
+                </SignedIn>
               </>
             ) : (
               <>
@@ -76,7 +81,8 @@ export default function Contato() {
             </button>
           </div>
         )}
-      </form>
+        {/* </form> */}
+      </div>
     </div>
   );
 }
