@@ -16,6 +16,8 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 
 8. melhorar beleza do segundo texto do about e deixar tudo reponsivo
 
+9. resolver problema com o clerk o mesmo que acontece no teko-bag
+
 ## Feitas
 
 1. trocar favicon.ico

@@ -68,7 +68,7 @@ export default function NavBar() {
             <li>
               <ThemeIcon cor='white' tamanho={24} />
             </li>
-            <li>
+            <li className='mt-2'>
               <SignedOut>
                 <SignInButton mode='modal'>
                   <button className='bg-white rounded-lg py-2 px-3 font-semibold'>

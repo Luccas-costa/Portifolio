@@ -1,11 +1,22 @@
 "use client";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
-import React, { useState } from "react";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
+import { useUserEmail } from "./useUserEmail";
+import React, { useEffect, useState } from "react";
 
 export default function Contato() {
-  const [login, setLogin] = useState(true);
+  const [login, setLogin] = useState(false);
   const [optionlogin, setoptionlogin] = useState(false);
+
+  const email = useUserEmail();
+
+  useEffect(() => {
+    if (email === null) {
+      setLogin(true);
+    } else {
+      setLogin(false);
+    }
+  }, [email]);
+
   return (
     <div className='py-[50px] bg-black text-white'>
       <div className='text-7xl font-semibold text-center'>
