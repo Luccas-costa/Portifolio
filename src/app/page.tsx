@@ -5,6 +5,7 @@ import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Contato from "@/components/Contato";
 import Questions from "@/components/Questions";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <About />
       <Questions />
       <Contato />
+      <Footer />
     </main>
   );
 }

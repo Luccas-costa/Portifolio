@@ -1,6 +1,6 @@
 "use client";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
-import { useUserEmail } from "./useUserEmail";
+import { useUserEmail } from "../hooks/useUserEmail";
 import React, { useEffect, useState } from "react";
 
 export default function Contato() {
