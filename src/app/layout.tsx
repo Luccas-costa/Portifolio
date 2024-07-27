@@ -25,7 +25,7 @@ export default function RootLayout({
         variables: { colorPrimary: "#B48CDE" },
       }}
     >
-      <html lang='pt-br'>
+      <html lang='pt'>
         <body className={`${inter.className} antialiased`}>{children}</body>
       </html>
     </ClerkProvider>

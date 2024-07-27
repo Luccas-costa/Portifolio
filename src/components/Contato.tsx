@@ -1,11 +1,37 @@
 "use client";
-import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
-import { useUserEmail } from "../hooks/useUserEmail";
+
 import React, { useEffect, useState } from "react";
 
-export default function Contato() {
+import { Language } from "@/types/Languages";
+import { useUserEmail } from "../hooks/useUserEmail";
+
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
+
+import pt from "@/constants/pt.json";
+import en from "@/constants/en.json";
+import es from "@/constants/es.json";
+
+interface ContatoProps {
+  LanguageType: string;
+}
+
+export default function Contato({ LanguageType }: ContatoProps) {
   const [login, setLogin] = useState(false);
   const [optionlogin, setoptionlogin] = useState(false);
+  const [controlLanguage, setControlLanguage] = useState<Language | null>(null);
+
+  useEffect(() => {
+    const handlerLanguageType = (LanguageType: string) => {
+      if (LanguageType === "pt") {
+        setControlLanguage(pt);
+      } else if (LanguageType === "en") {
+        setControlLanguage(en);
+      } else if (LanguageType === "es") {
+        setControlLanguage(es);
+      }
+    };
+    handlerLanguageType(LanguageType);
+  }, [LanguageType]);
 
   const email = useUserEmail();
 
@@ -20,10 +46,10 @@ export default function Contato() {
   return (
     <div className='py-[50px] bg-black text-white'>
       <div className='text-7xl font-semibold text-center'>
-        Envie uma mensagem
+        {controlLanguage?.Contato.title}
       </div>
       <div className='text-2xl pt-4 text-center text-white/40 w-1/3 mx-auto  '>
-        Quer me conectar? Me mande uma mensagem pelo formulário abaixo.
+        {controlLanguage?.Contato.description}
       </div>
       {/* <form
         action=''
@@ -40,7 +66,7 @@ export default function Contato() {
                     optionlogin ? "bg-white" : "bg-zinc-200"
                   } hover:bg-zinc-200 rounded-t-lg text-black font-bold flex items-center justify-center cursor-pointer text-xl`}
                 >
-                  Email
+                  {controlLanguage?.Contato.option1}
                 </div>
                 <div
                   onClick={() => setoptionlogin(!optionlogin)}
@@ -48,7 +74,7 @@ export default function Contato() {
                     optionlogin ? "bg-zinc-200" : "bg-white"
                   } hover:bg-zinc-200 rounded-t-lg text-black font-bold flex items-center justify-center cursor-pointer text-xl`}
                 >
-                  Google
+                  {controlLanguage?.Contato.option2}
                 </div>
               </div>
               <hr className=' border bg-white border-white rounded' />
@@ -58,7 +84,7 @@ export default function Contato() {
                 <SignedOut>
                   <SignInButton mode='modal'>
                     <button className='my-2 p-[0.8rem] bg-white border-none rounded-xl  w-1/3 text-black font-bold text-xl'>
-                      Login
+                      {controlLanguage?.Contato.btnlogin}
                     </button>
                   </SignInButton>
                 </SignedOut>
@@ -70,7 +96,7 @@ export default function Contato() {
               <>
                 <input
                   type='text'
-                  placeholder='name@email.com'
+                  placeholder={controlLanguage?.Contato.placeholder1}
                   className='mb-4 p-[1rem] bg-white/15 border-none rounded-xl text-white w-1/3 placeholder:text-zinc-300'
                 />
               </>
@@ -81,14 +107,14 @@ export default function Contato() {
           <div className='flex space-x-4 w-1/3 mx-auto'>
             <input
               type='text'
-              placeholder='Conteudo de sua mensagem'
+              placeholder={controlLanguage?.Contato.placeholder2}
               className='p-[1rem] bg-white/15 border-none rounded-xl text-white w-3/4 placeholder:text-zinc-300'
             />
             <button
               type='submit'
               className='p-[0.8rem] bg-white border-none rounded-xl  w-1/4 text-black font-bold text-xl'
             >
-              Enviar
+              {controlLanguage?.Contato.btnsend}
             </button>
           </div>
         )}

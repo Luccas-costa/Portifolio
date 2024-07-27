@@ -1,0 +1,103 @@
+{
+    "navbar": {
+        "Projetos": "Projects",
+        "Sobre": "About",
+        "Contato": "Contact",
+        "Idioma": "Language",
+        "MenuIdioma": {       
+            "Portugues": "Portuguese",  
+            "English": "English",  
+            "Español": "Español"  
+        },
+        "Login": "Login"
+    },
+    "hero": {
+      "olaMundo": "Hello World!",
+      "euSou": "i am",
+      "nome": "Luccas Costa",
+      "descricao": "I am a Full Stack developer, currently residing in São Paulo. I am 17 years old, with 3 years in the field, and I am a passionate programming and technology enthusiast.",
+      "Modal": {     
+        "modalTrigger": "Contact",
+        "modalContentTitle": "My",
+        "modalContentTitleSpan": "connections!",
+        "modalContentInstruction": "If you prefer the convenience and ",
+        "modalContentInstructionSpan1": "Certainty!",
+        "modalContentInstructionSpan2": "of a",
+        "modalContentInstructionSpan3": "Quick!",
+        "modalContentInstructionSpan4": "response, send me a message by clicking the button below.",
+        "modalFooterExit": "Exit",
+        "modalFooterSendMessage": "Send a message"
+      }
+    },
+    "Languages": {
+      "title": "What Languages ​​do I work?"
+    },
+    "Projetos": {
+      "title": "Projects",
+      "description": "These are some of my current projects, personal or open sources.",
+      "CardAc": {
+        "option1": "See now →",
+        "option2": "GitHub"
+      },
+      "Card1": {
+          "title": "Teko's bag",
+          "description": "E-commerce of fashion products, developed with Next.js, Tailwind, React, Typescript and Clerk."
+      },
+      "Card2": {
+          "title": "Not yet",
+          "description": "Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon"
+      },
+      "Card3": {
+          "title": "Not yet",
+          "description": "Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon"
+      }
+  },
+  "About": {
+    "title": "About me",
+    "description": "Let's talk a little about me.",
+    "question": "And after all, who am I",
+    "question-span": " ME?",
+    "about-me": "I'm a Full Stack developer. I'm originally from Minas Gerais, but I currently live in São Paulo. And I work as a web developer. I'm 17 years old and I'm passionate about technology, already having 3 years in the area. When I'm not at home, I like being on the mats, I'm a jiu-jitsu athlete, varied in the area and I'm looking for new challenges."
+  },
+  "Questions": {
+      "title": "Perguntas frequentes",
+      "QuestionsFeed": [
+          {
+              "id": 1,
+              "Question": "Teste",
+              "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+            },
+            {
+              "id": 2,
+              "Question": "teste2",
+              "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+            },
+            {
+              "id": 3,
+              "Question": "Teste",
+              "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+            },
+            {
+              "id": 4,
+              "Question": "teste2",
+              "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+            },
+            {
+              "id": 5,
+              "Question": "teste2",
+              "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+            }
+      ]
+    },
+    "Contato": {
+        "title": "Send a message",
+        "description": "Want to connect with me? Send me a message using the form below.",
+        "option1": "Email",
+        "option2": "Google",
+        "btnlogin": "Login",
+        "placeholder1": "name@email.com",
+        "placeholder2": "Content of your message",
+        "btnsend": "Send"
+    }
+}
+  

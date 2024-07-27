@@ -1,13 +1,25 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
+
 import Image from "next/image";
+import React, { useState, useRef, useEffect } from "react";
+
 import { languages } from "@/lib/languages";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
-import { CaretLeft, CaretRight } from "@phosphor-icons/react";
+import { Language } from "@/types/Languages";
 import styles from "@/styles/Languages.module.css";
 
-interface Language {
+import { motion, useAnimation } from "framer-motion";
+import { CaretLeft, CaretRight } from "@phosphor-icons/react";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
+
+import pt from "@/constants/pt.json";
+import en from "@/constants/en.json";
+import es from "@/constants/es.json";
+
+interface LanguagesProps {
+  LanguageType: string;
+}
+
+interface Languagis {
   id: number;
   image: string | StaticImport;
   name: string;
@@ -21,11 +33,25 @@ const chunkArray = (array: any[], size: number) => {
   return chunkedArr;
 };
 
-export default function Languages() {
+export default function Languages({ LanguageType }: LanguagesProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [itemsPerSlide, setItemsPerSlide] = useState(5);
   const controls = useAnimation();
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const [controlLanguage, setControlLanguage] = useState<Language | null>(null);
+
+  useEffect(() => {
+    const handlerLanguageType = (LanguageType: string) => {
+      if (LanguageType === "pt") {
+        setControlLanguage(pt);
+      } else if (LanguageType === "en") {
+        setControlLanguage(en);
+      } else if (LanguageType === "es") {
+        setControlLanguage(es);
+      }
+    };
+    handlerLanguageType(LanguageType);
+  }, [LanguageType]);
 
   useEffect(() => {
     const updateItemsPerSlide = () => {
@@ -70,7 +96,7 @@ export default function Languages() {
   return (
     <div className='w-full bg-black text-zinc-600 screen9:pt-[30px] screen10:pt-[43px] screen11:pt-[48px] screen12:pt-[48px] pt-[50px] pb-[150px] flex flex-col items-center overflow-hidden relative'>
       <div className='text-xl screen12:text-2xl font-semibold tracking-tighter screen11:text-3xl'>
-        Quais Linguagens eu trabalho?
+        {controlLanguage?.Languages.title}
       </div>
       <div className='mt-16 overflow-hidden w-full' ref={containerRef}>
         <motion.div
@@ -83,7 +109,7 @@ export default function Languages() {
           {slides.map((slide, index) => (
             <motion.div key={index} className='flex-shrink-0 w-full'>
               <ul className='flex justify-center space-x-[30px] screen12:space-x-[50px] spacesliders:space-x-0 spacesliders:justify-around'>
-                {slide.map((language: Language) => (
+                {slide.map((language: Languagis) => (
                   <li
                     key={language.id}
                     className='flex items-center space-x-2 spacesliders:space-x-4'

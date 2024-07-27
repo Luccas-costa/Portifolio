@@ -7,20 +7,20 @@ import Contato from "@/components/Contato";
 import Questions from "@/components/Questions";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function HomeEs() {
   return (
     <main className='h-screen w-screen bg-white dark:bg-neutral-950'>
       <div style={{ zIndex: 2, position: "relative" }}>
-        <NavBar LanguageType='pt' />
+        <NavBar LanguageType='es' />
       </div>
       <div style={{ zIndex: 1, position: "relative" }}>
-        <Hero LanguageType='pt' />
+        <Hero LanguageType='es' />
       </div>
-      <Languages LanguageType='pt' />
-      <Projects LanguageType='pt' />
-      <About LanguageType='pt' />
-      <Questions LanguageType='pt' />
-      <Contato LanguageType='pt' />
+      <Languages LanguageType='es' />
+      <Projects LanguageType='es' />
+      <About LanguageType='es' />
+      <Questions LanguageType='es' />
+      <Contato LanguageType='es' />
       <Footer />
     </main>
   );

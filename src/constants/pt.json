@@ -1,0 +1,103 @@
+{
+    "navbar": {
+        "Projetos": "Projetos",
+        "Sobre": "Sobre",
+        "Contato": "Contato",
+        "Idioma": "Idioma",
+        "MenuIdioma": {       
+            "Portugues": "Portugues",  
+            "English": "English",  
+            "Español": "Español"  
+        },
+        "Login": "Login"
+    },
+    "hero": {
+      "olaMundo": "Olá Mundo!",
+      "euSou": "eu sou",
+      "nome": "Luccas Costa",
+      "descricao": "Sou um desenvolvedor Full Stack, atualmente residindo em São Paulo. Tenho 17 anos, sendo 3 na área e sou um entusiasta apaixonado por programação e tecnologia.",
+        "Modal": {     
+            "modalTrigger": "Contato",
+            "modalContentTitle": "Minhas",
+            "modalContentTitleSpan": "conexões!",
+            "modalContentInstruction": "Se prefere a praticidade e",
+            "modalContentInstructionSpan1": "Certeza!",
+            "modalContentInstructionSpan2": "de resposta",
+            "modalContentInstructionSpan3": "Rapida!",
+            "modalContentInstructionSpan4": "Me mande uma mensagem clicando no botão abaixo.",
+            "modalFooterExit": "Sair",
+            "modalFooterSendMessage": "Mandar uma mensagem"          
+        }
+    },
+    "Languages": {
+        "title": "Quais Linguagens eu trabalho?"
+    },
+    "Projetos": {
+        "title": "Projetos",
+        "description": "Esses são alguns de meus projetos atuais, pessoais ou open sources.",
+        "CardAc": {
+            "option1": "Ver agora →",
+            "option2": "GitHub"
+        },
+        "Card1": {
+            "title": "Teko's bag",
+            "description": "E-commerce de produtos de moda, desenvolvido com Next.js, Tailwind, React, Typescript e Clerk."
+        },
+        "Card2": {
+            "title": "Ainda nao tem",
+            "description": "Em Breve  Em Breve  Em Breve  Em Breve  Em Breve  Em Breve  Em Breve"
+        },
+        "Card3": {
+            "title": "Ainda nao tem",
+            "description": "Em Breve  Em Breve  Em Breve  Em Breve  Em Breve  Em Breve  Em Breve"
+        }
+    },
+    "About": {
+        "title": "Sobre mim",
+        "description": "Vamos falar um pouco sobre mim.",
+        "question": "E afinal quem sou",
+        "question-span": " EU?",
+        "about-me": "Sou um desenvolvedor Full Stack. Sou natural de Minas Gerais, mas vivo hoje em São Paulo. E trabalho como um desenvolvedor web. Tenho 17 anos e sou apaixonado por tecnologia, já tendo 3 anos na área. Quando não estou em casa, gosto de estar nos tatames, sou atleta de jiu-jitsu, variados na área e estou em busca de novos desafios."
+    },
+    "Questions": {
+        "title": "Perguntas frequentes",
+        "QuestionsFeed": [
+            {
+                "id": 1,
+                "Question": "Teste",
+                "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+              },
+              {
+                "id": 2,
+                "Question": "teste2",
+                "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+              },
+              {
+                "id": 3,
+                "Question": "Teste",
+                "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+              },
+              {
+                "id": 4,
+                "Question": "teste2",
+                "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+              },
+              {
+                "id": 5,
+                "Question": "teste2",
+                "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+              }
+        ]
+    },
+    "Contato": {
+        "title": "Envie uma mensagem",
+        "description": "Quer me conectar? Me mande uma mensagem pelo formulário abaixo.",
+        "option1": "Email",
+        "option2": "Google",
+        "btnlogin": "Login",
+        "placeholder1": "name@email.com",
+        "placeholder2": "Conteudo de sua mensagem",
+        "btnsend": "Enviar"
+    }
+}
+  

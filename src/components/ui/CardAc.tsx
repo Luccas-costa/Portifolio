@@ -11,6 +11,7 @@ interface ThreeDCardDemoProps {
   ImageProject: string;
   linksite: string;
   linkgit: string;
+  textos: { label: string; href: string }[];
 }
 
 export default function ThreeDCardDemo({
@@ -19,6 +20,7 @@ export default function ThreeDCardDemo({
   ImageProject,
   linksite,
   linkgit,
+  textos,
 }: ThreeDCardDemoProps) {
   return (
     <CardContainer className='inter-var'>
@@ -53,7 +55,7 @@ export default function ThreeDCardDemo({
             target='__blank'
             className='px-4 py-2 rounded-xl text-xs font-normal dark:text-white'
           >
-            Ver agora →
+            {textos[0].label}
           </CardItem>
           <CardItem
             translateZ={20}
@@ -61,7 +63,7 @@ export default function ThreeDCardDemo({
             href={linkgit}
             className='px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold'
           >
-            GitHub
+            {textos[1].label}
           </CardItem>
         </div>
       </CardBody>

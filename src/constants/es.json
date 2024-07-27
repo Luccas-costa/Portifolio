@@ -1,0 +1,103 @@
+{
+    "navbar": {
+        "Projetos": "Proyectos",
+        "Sobre": "Acerca de",
+        "Contato": "Contacto",
+        "Idioma": "Idioma",
+        "MenuIdioma": {       
+            "Portugues": "portugués",  
+            "English": "Inglés",  
+            "Español": "Español"  
+        },
+        "Login": "Iniciar sesión"
+    },
+    "hero": {
+      "olaMundo": "¡Hola Mundo!",
+      "euSou": "yo soy",
+      "nome": "Luccas Costa",
+      "descricao": "Soy un desarrollador Full Stack, actualmente residiendo en São Paulo. Tengo 17 años, con 3 años en el campo y soy un apasionado entusiasta de la programación y la tecnología.",
+      "Modal": {     
+        "modalTrigger": "Contacto",
+        "modalContentTitle": "¡Mis",
+        "modalContentTitleSpan": "conexiones!",
+        "modalContentInstruction": "Si prefieres la conveniencia y la",
+        "modalContentInstructionSpan1": "Certeza!",
+        "modalContentInstructionSpan2": "de una respuesta",
+        "modalContentInstructionSpan3": "Rápida!",
+        "modalContentInstructionSpan4": "Envíame un mensaje haciendo clic en el botón de abajo.",
+        "modalFooterExit": "Salir",
+        "modalFooterSendMessage": "Enviar un mensaje"
+      }
+    },
+    "Languages": {
+      "title": "¿Qué Idiomas trabajo?"
+    },
+    "Projetos": {
+      "title": "Proyectos",
+      "description": "Estos son algunos de mis proyectos actuales, personales o de código abierto.",
+      "CardAc": {
+        "option1": "Ver ahora →",
+        "option2": "GitHub"
+      },
+      "Card1": {
+          "title": "Teko's bag",
+          "description": "E-commerce de productos de moda, desarrollado con Next.js, Tailwind, React, Typecript y Clerk."
+      },
+      "Card2": {
+          "title": "Aún no",
+          "description": "Próximamente Próximamente Próximamente Próximamente Próximamente Próximamente Próximamente Próximamente"
+      },
+      "Card3": {
+          "title": "Aún no",
+          "description": "Próximamente Próximamente Próximamente Próximamente Próximamente Próximamente Próximamente Próximamente"
+      }
+    },
+    "About": {
+        "title": "Acerca de mí",
+        "description": "Hablemos un poco de mí.",
+        "question": "Y después de todo, ¿quién soy yo",
+        "question-span": "¿YO?",
+        "about-me": "Soy desarrollador Full Stack. Soy originario de Minas Gerais, pero actualmente vivo en São Paulo. Y trabajo como desarrollador web. Tengo 17 años y me apasiona sobre tecnología, ya tengo 3 años en el área Cuando no estoy en casa, me gusta estar en las colchonetas, soy deportista de jiu-jitsu, variado en el área y busco nuevos desafíos."
+      },
+    "Questions": {
+        "title": "Perguntas frequentes",
+        "QuestionsFeed": [
+            {
+                "id": 1,
+                "Question": "Teste",
+                "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+              },
+              {
+                "id": 2,
+                "Question": "teste2",
+                "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+              },
+              {
+                "id": 3,
+                "Question": "Teste",
+                "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+              },
+              {
+                "id": 4,
+                "Question": "teste2",
+                "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+              },
+              {
+                "id": 5,
+                "Question": "teste2",
+                "Response":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus."
+              }
+        ]
+      },
+      "Contato": {
+          "title": "Enviar un mensaje",
+          "description": "¿Quieres conectarte conmigo? Envíame un mensaje usando el siguiente formulario.",
+          "option1": "Email",
+          "option2": "Google",
+          "btnlogin": "Login",
+          "placeholder1": "nombre@email.com",
+          "placeholder2": "Contenido de tu mensaje",
+          "btnsend": "Enviar"
+      }
+}
+  

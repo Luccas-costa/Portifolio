@@ -10,13 +10,15 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 
 5. preciso arrumar como que faz o posicionamento dos icones na hero e no contato
 
-6. melhorar about com oq fiz no portifolio old
+6. tirar foto deitada para botar no about
 
-7. tirar foto deitada para botar no about
+7. melhorar beleza do segundo texto do about e deixar tudo reponsivo
 
-8. melhorar beleza do segundo texto do about e deixar tudo reponsivo
+8. resolver problema com o clerk o mesmo que acontece no teko-bag
 
-9. resolver problema com o clerk o mesmo que acontece no teko-bag
+9. Adicionar intro pro site tipo o da teko bag mais com o estilo daquele banco antigo que o thales mo mostro na link
+
+10. achar uma maneira de malhorar o tempo de espera quando troca de idioma pode ser com um bgl que gira tipo load no btn que eu clicar travando os outros enquanto isso
 
 ## Feitas
 
@@ -46,3 +48,5 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 13. ajustar distancia do contato com language em menores resoluçoes
 
 14. terminar perguntas e componentizar mais para cada pergunta ser um componente com props
+
+15. terminar de arrumar os idiomas nos json e depois add isso nos componente com que de para trocar via props
