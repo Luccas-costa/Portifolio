@@ -32,20 +32,6 @@ export default function Pai() {
       >
         {isVisible && <Intro />}
       </motion.div>
-      <div>
-        <div style={{ zIndex: 2, position: "relative" }}>
-          <NavBar LanguageType='pt' />
-        </div>
-        <div style={{ zIndex: 1, position: "relative" }}>
-          <Hero LanguageType='pt' />
-        </div>
-        <Languages LanguageType='pt' />
-        <Projects LanguageType='pt' />
-        <About LanguageType='pt' />
-        <Questions LanguageType='pt' />
-        <Contato LanguageType='pt' />
-        <Footer />
-      </div>
     </div>
   );
 }
