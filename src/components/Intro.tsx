@@ -8,7 +8,7 @@ export default function Intro() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 1500);
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -31,7 +31,7 @@ export default function Intro() {
           <motion.div
             initial={{ width: 0 }}
             animate={{ width: "auto" }}
-            transition={{ type: "tween", duration: 0.5 }}
+            transition={{ type: "tween", duration: 0.6 }}
             className='inline-block whitespace-nowrap'
           >
             <h1 className='text-5xl text-white font-semibold'>Luccas</h1>
