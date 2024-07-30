@@ -16,15 +16,16 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 
 8. resolver problema com o clerk o mesmo que acontece no teko-bag
 
-9. Adicionar intro pro site tipo o da teko bag mais com o estilo daquele banco antigo que o thales mo mostro na link
+9. achar uma maneira de malhorar o tempo de espera quando troca de idioma pode ser com um bgl que gira tipo load no btn que eu clicar travando os outros enquanto isso
 
-10. achar uma maneira de malhorar o tempo de espera quando troca de idioma pode ser com um bgl que gira tipo load no btn que eu clicar travando os outros enquanto isso
+10. terminar de ajeitar a intro do site
 
 ## Feitas
 
 1. trocar favicon.ico
 
 2. descobrir pq o burguerMenu nao esta funcionando
+
 3. melhorar dentro menu burguer
 
 4. melhorar texto do hero que esta feito
@@ -50,3 +51,5 @@ feito - proxima section tem que ser dentro do projects ou cria um componente sep
 14. terminar perguntas e componentizar mais para cada pergunta ser um componente com props
 
 15. terminar de arrumar os idiomas nos json e depois add isso nos componente com que de para trocar via props
+
+16. Adicionar intro pro site tipo o da teko bag mais com o estilo daquele banco antigo que o thales mo mostro na link
